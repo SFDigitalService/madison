@@ -120,4 +120,6 @@ return [
             resource_path('views/vendor/mail'),
         ],
     ],
+
+    'sendmail' => env('MAIL_SENDMAIL', '/usr/sbin/sendmail -bs'),
 ];
