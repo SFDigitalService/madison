@@ -34,7 +34,7 @@ $.extend(Annotator.Plugin.Madison.prototype, new Annotator.Plugin(), {
       }
 
       if (this.options.userId) {
-        $.post('/documents/' + this.options.docId + '/comments/' + annotationId + '/' + action, data)
+        $.post('/regulation/documents/' + this.options.docId + '/comments/' + annotationId + '/' + action, data)
           .done(function (data) {
             sourceElement = $(sourceElement);
 
@@ -228,7 +228,8 @@ $.extend(Annotator.Plugin.Madison.prototype, new Annotator.Plugin(), {
 
   loadNotesPane: function (annotationGroup) {
     // build up new content
-    return $.get('/documents/'+this.options.docId+'/comments/',
+    var url = '/regulation/documents/'+this.options.docId+'/comments';
+    return $.get(url,
           {'partial': true,
            'ids': annotationGroup.annotations.map(function (ann) { return ann.id; })
           }, null, "html")

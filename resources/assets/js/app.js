@@ -39,7 +39,7 @@ window.getQueryParam = function(name, url) {
 };
 
 window.redirectToLogin = function() {
-  window.location.href = '/login?redirect='+window.location.pathname;
+  window.location.href = '/regulation/login?redirect='+window.location.pathname;
 };
 
 // https://www.lullabot.com/articles/importing-css-breakpoints-into-javascript

@@ -15,7 +15,7 @@ window.loadAnnotations = function (contentElem, annotationContainerElem, docId, 
       'uri': window.location.pathname,
       'comments': []
     },
-    prefix: '/documents/' + docId + '/comments',
+    prefix: '/regulation/documents/' + docId + '/comments',
     urls: {
       create: '',
       read: '/:id?only_notes=true&include_replies=false&include_content=false',
@@ -61,7 +61,7 @@ window.revealComment = function (docId) {
   var commentHash = window.location.hash.match(/^#comment_([0-9]+)-?([0-9]+)?$/);
   var hash = jQuery.Deferred();
   var lookupNewId = function (oldId) {
-    return $.get('/documents/'+docId+'/comments/'+oldId, null, null, 'json')
+    return $.get('/regulation/documents/'+docId+'/comments/'+oldId, null, null, 'json')
        .done(function (data) {
          hash.resolve(data.id);
        });
@@ -154,7 +154,7 @@ window.submitNewComment = function (e) {
     $.post($form.attr('action'), $form.serialize())
       .done(function (response) {
         // if success, fetch new markup and swap with existing
-        $.get('/documents/'+window.documentId+'/comments/'+$comment.attr('id'), { 'partial': true }, null, "html")
+        $.get('/regulation/documents/'+window.documentId+'/comments/'+$comment.attr('id'), { 'partial': true }, null, "html")
           .done(function (html) {
             $comment.replaceWith(html);
 
@@ -179,7 +179,7 @@ window.submitNewComment = function (e) {
         $form.trigger('reset');
         toggleNewCommentForm($form);
 
-        $.get('/documents/'+window.documentId+'/comments/'+response.id, { 'partial': true }, null, "html")
+        $.get('/regulation/documents/'+window.documentId+'/comments/'+response.id, { 'partial': true }, null, "html")
           .done(function (html) {
             $comments.prepend(html);
 

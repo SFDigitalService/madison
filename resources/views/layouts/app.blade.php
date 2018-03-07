@@ -34,7 +34,7 @@
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Poppins:400,700" rel="stylesheet">
-    <link href="{{ elixir('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset(elixir('css/app.css')) }}" rel="stylesheet">
     @stack('styles')
 
     <!-- Scripts -->
@@ -195,7 +195,7 @@
         <div id="main-footer">
             <footer class="container">
                 <div class="logo">
-                    <a href="https://opengovfoundation.org" title="OpenGov Foundation"><img src="/img/logo.svg"></a>
+                    <a href="https://opengovfoundation.org" title="OpenGov Foundation"><img src="{{ asset('img/logo.svg') }}"></a>
                 </div>
 
                 <ul>
@@ -219,8 +219,8 @@
      @endif
 
     <!-- Scripts -->
-    <script src="{{ elixir('js/vendor.js') }}"></script>
-    <script src="{{ elixir('js/app.js') }}"></script>
+    <script src="{{ asset(elixir('js/vendor.js')) }}"></script>
+    <script src="{{ asset(elixir('js/app.js')) }}"></script>
     @stack('scripts')
 </body>
 </html>

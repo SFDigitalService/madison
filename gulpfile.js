@@ -14,7 +14,7 @@ const elixir = require('laravel-elixir');
 elixir.config.css.autoprefix.options.browsers = ['> 1%', 'last 2 versions', 'Firefox ESR', 'IE >= 10'];
 elixir.config.css.autoprefix.options.remove = false;
 
-elixir((mix) => {
+elixir(function(mix) {
     mix.sass('app.scss')
        .sass('mail.scss', 'resources/views/vendor/mail/html/themes/opengov.css')
        .webpack('annotator-madison.js')

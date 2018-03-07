@@ -47,7 +47,7 @@
             </div>
         </div>
 
-        @include('documents.partials.support-btns')
+        {{-- @include('documents.partials.support-btns') --}}
 
         <div class="row">
             <div id="document-outline" class="col-md-3 panel hidden-sm hidden-xs small">
@@ -109,8 +109,8 @@
     @endif
 
     @push('scripts')
-        <script src="{{ elixir('js/annotator-madison.js') }}"></script>
-        <script src="{{ elixir('js/document.js') }}"></script>
+        <script src="{{ asset(elixir('js/annotator-madison.js')) }}"></script>
+        <script src="{{ asset(elixir('js/document.js')) }}"></script>
         <script>
             window.documentId = {{ $document->id }};
 

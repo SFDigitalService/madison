@@ -68,7 +68,7 @@
     @if (Auth::user())
         <div class="clearfix"></div>
 
-        @include('documents.partials.new-comment-form', ['route' => ['documents.comments.storeReply', $comment->annotatable_id, $comment->id], 'message' => 'messages.document.add_reply'])
+        {{-- @include('documents.partials.new-comment-form', ['route' => ['documents.comments.storeReply', $comment->annotatable_id, $comment->id], 'message' => 'messages.document.add_reply']) --}}
     @endif
 @endif
 
