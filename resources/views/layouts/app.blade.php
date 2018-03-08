@@ -33,6 +33,10 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Poppins:400,700" rel="stylesheet">
+    <link href="{{ asset(elixir('css/app.css')) }}" rel="stylesheet">
+    @stack('styles')
+
     <style media="all">
       @import url("/core/assets/vendor/normalize-css/normalize.css?p4kl2s");
       @import url("/core/themes/stable/css/system/components/ajax-progress.module.css?p4kl2s");
@@ -108,10 +112,6 @@
       @import url("/themes/custom/cannabis/css/toolkit.css?p4kl2s");
       @import url("/themes/custom/cannabis/css/cannabis.css?p4kl2s");
     </style>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Poppins:400,700" rel="stylesheet">
-    <link href="{{ asset(elixir('css/app.css')) }}" rel="stylesheet">
-    @stack('styles')
-
     <!-- Scripts -->
     <script>
         window.Laravel = <?php echo json_encode([
