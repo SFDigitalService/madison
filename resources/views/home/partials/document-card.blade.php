@@ -11,7 +11,7 @@
                     </a>
                     <br>
                     <small class="text-muted">
-                        {{ $document->introtext_html }}
+                        {{ $document->sponsors->implode('display_name', ', ') }}
                     </small>
                 </h4>
                 <p>{{ $document->shortIntroText() }}</p>
