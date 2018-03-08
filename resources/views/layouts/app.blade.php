@@ -33,6 +33,81 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Styles -->
+    <style media="all">
+      @import url("/core/assets/vendor/normalize-css/normalize.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/ajax-progress.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/align.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/autocomplete-loading.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/fieldgroup.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/container-inline.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/clearfix.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/details.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/hidden.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/item-list.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/js.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/nowrap.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/position-container.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/progress.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/reset-appearance.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/resize.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/sticky-header.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/system-status-counter.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/system-status-report-counters.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/system-status-report-general-info.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/tabledrag.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/tablesort.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/system/components/tree-child.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/contextual/contextual.module.css?p4kl2s");
+      @import url("/core/assets/vendor/jquery.ui/themes/base/button.css?p4kl2s");
+      @import url("/core/assets/vendor/jquery.ui/themes/base/resizable.css?p4kl2s");
+      @import url("/core/assets/vendor/jquery.ui/themes/base/dialog.css?p4kl2s");
+      @import url("/core/themes/stable/css/quickedit/quickedit.module.css?p4kl2s");
+      @import url("/core/themes/stable/css/toolbar/toolbar.module.css?p4kl2s");
+    </style>
+    <style media="all">
+      @import url("/core/themes/stable/css/contextual/contextual.toolbar.css?p4kl2s");
+      @import url("/core/themes/stable/css/toolbar/toolbar.menu.css?p4kl2s");
+      @import url("/core/themes/stable/css/contextual/contextual.theme.css?p4kl2s");
+      @import url("/core/themes/stable/css/contextual/contextual.icons.theme.css?p4kl2s");
+      @import url("/core/themes/seven/css/components/quickedit.css?p4kl2s");
+      @import url("/core/themes/stable/css/quickedit/quickedit.theme.css?p4kl2s");
+      @import url("/core/themes/stable/css/quickedit/quickedit.icons.theme.css?p4kl2s");
+      @import url("/core/themes/stable/css/toolbar/toolbar.theme.css?p4kl2s");
+      @import url("/core/themes/stable/css/toolbar/toolbar.icons.theme.css?p4kl2s");
+      @import url("/core/themes/stable/css/user/user.icons.admin.css?p4kl2s");
+      @import url("/core/themes/stable/css/shortcut/shortcut.theme.css?p4kl2s");
+      @import url("/core/themes/stable/css/shortcut/shortcut.icons.theme.css?p4kl2s");
+    </style>
+    <style media="all">
+      @import url("/core/themes/classy/css/components/progress.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/dialog.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/action-links.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/breadcrumb.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/button.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/collapse-processed.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/container-inline.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/details.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/exposed-filters.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/field.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/form.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/icons.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/inline-form.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/item-list.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/link.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/links.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/menu.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/more-link.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/pager.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/tabledrag.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/tableselect.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/tablesort.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/tabs.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/textarea.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/ui-dialog.css?p4kl2s");
+      @import url("/core/themes/classy/css/components/messages.css?p4kl2s");
+      @import url("/themes/custom/cannabis/css/toolkit.css?p4kl2s");
+      @import url("/themes/custom/cannabis/css/cannabis.css?p4kl2s");
+    </style>
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Poppins:400,700" rel="stylesheet">
     <link href="{{ asset(elixir('css/app.css')) }}" rel="stylesheet">
     @stack('styles')
@@ -51,83 +126,6 @@
     @if (App::environment('production', 'staging') && !empty(config('services.rollbar.client_side_access_token')))
         @include('partials/rollbar-script')
     @endif
-
-
-<style media="all">
-@import url("/core/assets/vendor/normalize-css/normalize.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/ajax-progress.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/align.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/autocomplete-loading.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/fieldgroup.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/container-inline.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/clearfix.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/details.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/hidden.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/item-list.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/js.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/nowrap.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/position-container.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/progress.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/reset-appearance.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/resize.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/sticky-header.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/system-status-counter.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/system-status-report-counters.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/system-status-report-general-info.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/tabledrag.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/tablesort.module.css?p4kl2s");
-@import url("/core/themes/stable/css/system/components/tree-child.module.css?p4kl2s");
-@import url("/core/themes/stable/css/contextual/contextual.module.css?p4kl2s");
-@import url("/core/assets/vendor/jquery.ui/themes/base/button.css?p4kl2s");
-@import url("/core/assets/vendor/jquery.ui/themes/base/resizable.css?p4kl2s");
-@import url("/core/assets/vendor/jquery.ui/themes/base/dialog.css?p4kl2s");
-@import url("/core/themes/stable/css/quickedit/quickedit.module.css?p4kl2s");
-@import url("/core/themes/stable/css/toolbar/toolbar.module.css?p4kl2s");
-</style>
-<style media="all">
-@import url("/core/themes/stable/css/contextual/contextual.toolbar.css?p4kl2s");
-@import url("/core/themes/stable/css/toolbar/toolbar.menu.css?p4kl2s");
-@import url("/core/themes/stable/css/contextual/contextual.theme.css?p4kl2s");
-@import url("/core/themes/stable/css/contextual/contextual.icons.theme.css?p4kl2s");
-@import url("/core/themes/seven/css/components/quickedit.css?p4kl2s");
-@import url("/core/themes/stable/css/quickedit/quickedit.theme.css?p4kl2s");
-@import url("/core/themes/stable/css/quickedit/quickedit.icons.theme.css?p4kl2s");
-@import url("/core/themes/stable/css/toolbar/toolbar.theme.css?p4kl2s");
-@import url("/core/themes/stable/css/toolbar/toolbar.icons.theme.css?p4kl2s");
-@import url("/core/themes/stable/css/user/user.icons.admin.css?p4kl2s");
-@import url("/core/themes/stable/css/shortcut/shortcut.theme.css?p4kl2s");
-@import url("/core/themes/stable/css/shortcut/shortcut.icons.theme.css?p4kl2s");
-</style>
-<style media="all">
-@import url("/core/themes/classy/css/components/progress.css?p4kl2s");
-@import url("/core/themes/classy/css/components/dialog.css?p4kl2s");
-@import url("/core/themes/classy/css/components/action-links.css?p4kl2s");
-@import url("/core/themes/classy/css/components/breadcrumb.css?p4kl2s");
-@import url("/core/themes/classy/css/components/button.css?p4kl2s");
-@import url("/core/themes/classy/css/components/collapse-processed.css?p4kl2s");
-@import url("/core/themes/classy/css/components/container-inline.css?p4kl2s");
-@import url("/core/themes/classy/css/components/details.css?p4kl2s");
-@import url("/core/themes/classy/css/components/exposed-filters.css?p4kl2s");
-@import url("/core/themes/classy/css/components/field.css?p4kl2s");
-@import url("/core/themes/classy/css/components/form.css?p4kl2s");
-@import url("/core/themes/classy/css/components/icons.css?p4kl2s");
-@import url("/core/themes/classy/css/components/inline-form.css?p4kl2s");
-@import url("/core/themes/classy/css/components/item-list.css?p4kl2s");
-@import url("/core/themes/classy/css/components/link.css?p4kl2s");
-@import url("/core/themes/classy/css/components/links.css?p4kl2s");
-@import url("/core/themes/classy/css/components/menu.css?p4kl2s");
-@import url("/core/themes/classy/css/components/more-link.css?p4kl2s");
-@import url("/core/themes/classy/css/components/pager.css?p4kl2s");
-@import url("/core/themes/classy/css/components/tabledrag.css?p4kl2s");
-@import url("/core/themes/classy/css/components/tableselect.css?p4kl2s");
-@import url("/core/themes/classy/css/components/tablesort.css?p4kl2s");
-@import url("/core/themes/classy/css/components/tabs.css?p4kl2s");
-@import url("/core/themes/classy/css/components/textarea.css?p4kl2s");
-@import url("/core/themes/classy/css/components/ui-dialog.css?p4kl2s");
-@import url("/core/themes/classy/css/components/messages.css?p4kl2s");
-@import url("/themes/custom/cannabis/css/toolkit.css?p4kl2s");
-@import url("/themes/custom/cannabis/css/cannabis.css?p4kl2s");
-</style>
 
 </head>
 <body style="background-color:#1C3650;">
