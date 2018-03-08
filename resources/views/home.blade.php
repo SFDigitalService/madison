@@ -7,7 +7,7 @@
 @endpush
 
 @section('full-width-content')
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-color:#0077da">
         <div class="container">
             <h1>@lang('messages.home.welcome')</h1>
             <p>{!! trans('messages.home.intro') !!}</p>

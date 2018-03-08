@@ -7,6 +7,7 @@
             <li>{!! trans('messages.home.how_it_works.step3') !!}</li>
         </ol>
 
+<!--
         <h2><small>@lang('messages.home.sponsor_cta.title')</small></h2>
         <p>
             {!! trans('messages.home.sponsor_cta.text') !!}
@@ -14,6 +15,7 @@
                 <a href="{{ route('sponsors.info') }}">@lang('messages.home.sponsor_cta.action_text')</a>
             </strong>
         </p>
+//-->
     </div>
     <div class="col-md-6">
         <div class="embed-responsive embed-responsive-4by3">
