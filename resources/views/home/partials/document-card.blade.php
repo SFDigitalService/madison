@@ -11,11 +11,10 @@
                     </a>
                     <br>
                     <small class="text-muted">
-                        {{ $document->sponsors->implode('display_name', ', ') }}
+                        {{ $document->introtext_html }}
                     </small>
                 </h4>
-                <!--<p>{{ $document->shortIntroText() }}</p>-->
-                <p>{{ $document->introtext_html }}</p>
+                <p>{{ $document->shortIntroText() }}</p>
             </div>
 
             <hr>
