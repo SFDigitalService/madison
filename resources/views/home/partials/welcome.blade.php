@@ -6,6 +6,7 @@
             <li>{!! trans('messages.home.how_it_works.step2') !!}</li>
             <li>{!! trans('messages.home.how_it_works.step3') !!}</li>
         </ol>
+    </div>
 
 <!--
         <h2><small>@lang('messages.home.sponsor_cta.title')</small></h2>
