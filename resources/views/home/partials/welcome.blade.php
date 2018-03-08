@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-12">
         <h2 id="how-it-works">@lang('messages.home.how_it_works.title')</h2>
         <ol class="lead">
             <li>{!! trans('messages.home.how_it_works.step1') !!}</li>
@@ -15,11 +15,11 @@
                 <a href="{{ route('sponsors.info') }}">@lang('messages.home.sponsor_cta.action_text')</a>
             </strong>
         </p>
-//-->
     </div>
     <div class="col-md-6">
         <div class="embed-responsive embed-responsive-4by3">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/69pPKZeKC8U" allowfullscreen></iframe>
         </div>
     </div>
+//-->
 </div>
