@@ -88,14 +88,14 @@ return [
         ],
         'featured_title' => 'Featured',
         'popular_title' => 'Regulations open for comment',
-        'all_documents' => 'View all documents',
+        'all_documents' => 'View all regulations',
     ],
 
     'search' => [
-        'documents' => 'Search all documents',
+        'documents' => 'Search all regulations',
         'users' => 'Search all users',
         'sponsors' => 'Search all sponsors',
-        'placeholder' => 'Search documents',
+        'placeholder' => 'Search regulations',
     ],
 
     'advanced_search' => 'Advanced Search',
@@ -177,7 +177,7 @@ return [
         'create_as' => 'Sponsor As',
         'add_page' => 'Add Page',
 
-        'list' => 'Documents',
+        'list' => 'Regulations',
         'create' => 'Create Document',
         'new' => 'New Document',
         'edit' => 'Edit Document',
@@ -185,8 +185,8 @@ return [
         'view' => 'View Document',
         'manage' => 'Manage Document',
         'manage_comments' => 'Manage Comments',
-        'view_deleted' => 'View deleted documents',
-        'view_documents' => 'View documents',
+        'view_deleted' => 'View deleted regulations',
+        'view_documents' => 'View regulations',
     ],
 
     // Sponsor Stuff
@@ -214,7 +214,7 @@ return [
             'title' => 'You are not a sponsor.',
             'body' => 'Sponsors are individuals and organizations that want to share a document with the public and hear their opinions using Madison. Add the public\'s voice and credibility to your proposal. It\'s simple, fast, and free.',
         ],
-        'page_title_documents' => 'Documents | :sponsorName',
+        'page_title_documents' => 'Regulations | :sponsorName',
         'page_title_members' => 'Members | :sponsorName',
         'page_title_settings' => 'Settings | :sponsorName',
         'list' => 'Sponsors',
@@ -223,7 +223,7 @@ return [
         'my_sponsors' => 'My Sponsors',
         'all_sponsors' => 'All Sponsors',
         'edit' => 'Edit Sponsor',
-        'view_docs' => 'Documents',
+        'view_docs' => 'Regulations',
 
         'create_another' => 'Create Another Sponsor',
         'create_another_header' => 'Need another sponsor?',
@@ -266,7 +266,7 @@ return [
 
             'publish' => [
                 'subject' => 'Your sponsor request has been approved',
-                'opening' => 'Welcome to the Madison community! We\'re excited to tell you that your request to create :sponsor to sponsor documents has been approved.
+                'opening' => 'Welcome to the Madison community! We\'re excited to tell you that your request to create :sponsor to sponsor regulations has been approved.
 ',
                 'opening_2' => 'Now that you\'ve been approved and have had time to prepare for your engagement, here is how you can put your document on Madison.',
             ],
@@ -407,7 +407,7 @@ return [
                 ],
 
                 'flagged' => [
-                    'preference_description' => 'When someone flags a comment on your sponsored documents',
+                    'preference_description' => 'When someone flags a comment on your sponsored regulations',
                     'subject' => 'Someone flagged a :comment_type on :document.',
                 ],
 
@@ -434,7 +434,7 @@ return [
                 ],
 
                 'published' => [
-                    'preference_description' => 'When new documents are published',
+                    'preference_description' => 'When new regulations are published',
                     'subject' => ':document has been published',
                     'share_on_twitter' => 'Click here to share this document on Twitter.',
                 ],
@@ -477,10 +477,10 @@ return [
     ],
 
     'admin' => [
-        'featured_documents' => 'Featured Documents',
+        'featured_documents' => 'Featured Regulations',
         'manage_users' => 'Manage Users',
         'manage_sponsors' => 'Manage Sponsors',
-        'updated_featured_documents' => 'Feature documents updated',
+        'updated_featured_documents' => 'Feature regulations updated',
         'site_settings' => 'Site Settings',
         'custom_pages' => 'Custom Pages',
         'pages' => 'Pages',
