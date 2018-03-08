@@ -38,6 +38,11 @@
     @stack('styles')
 
     <style media="all">
+      .introtext>p {
+        line-height: 51px;
+      }
+    </style>
+    <style media="all">
       @import url("/core/assets/vendor/normalize-css/normalize.css?p4kl2s");
       @import url("/core/themes/stable/css/system/components/ajax-progress.module.css?p4kl2s");
       @import url("/core/themes/stable/css/system/components/align.module.css?p4kl2s");
