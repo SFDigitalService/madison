@@ -148,31 +148,18 @@
 								<a class="topfocus" title="San Francisco Office of Cannabis" href="https://officeofcannabis.sfgov.org/">San Francisco Office of Cannabis</a>
 							</h1>
 						</li>
-
-						<li class="toggle-topbar menu-icon">
-							<button aria-label="Open Menu" class="button-link t-caps open-nav-mobile">Menu
-							<span class="ui-icon ui-static ui-large i-primary">
-							<svg>
-								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#i-menu">#shadow-root (closed)
-									<svg id="i-menu" viewBox="0 0 32 32" width="100%" height="100%">
-										<title>menu</title>
-										<path d="M26.24 14.4h-20.48c-0.883 0-0.96 0.715-0.96 1.6s0.077 1.6 0.96 1.6h20.48c0.883 0 0.96-0.715 0.96-1.6s-0.077-1.6-0.96-1.6zM26.24 20.8h-20.48c-0.883 0-0.96 0.715-0.96 1.6s0.077 1.6 0.96 1.6h20.48c0.883 0 0.96-0.715 0.96-1.6s-0.077-1.6-0.96-1.6zM5.76 11.2h20.48c0.883 0 0.96-0.715 0.96-1.6s-0.077-1.6-0.96-1.6h-20.48c-0.883 0-0.96 0.715-0.96 1.6s0.077 1.6 0.96 1.6z"></path>
-									</svg>
-								</use>
-							</svg>
-							</span>
-							</button>
-						</li>
 					</ul>
 
-			<section class="top-bar-section">
-				<ul class="nav-menu right ng-scope" ng-include="'shared/templates/nav/_nav_items.html'">
-<!--
-					<li class="ng-scope"><a href="https://officeofcannabis.sfgov.org">Home</a></li>
-					<li class="ng-scope"><a href="https://officeofcannabis.sfgov.org/regulation/documents">Documents</a></li>
-//-->
-				</ul>
-			</section></div></nav>
+    			<section class="top-bar-section">
+    				<ul class="nav-menu right ng-scope" ng-include="'shared/templates/nav/_nav_items.html'">
+    <!--
+    					<li class="ng-scope"><a href="https://officeofcannabis.sfgov.org">Home</a></li>
+    					<li class="ng-scope"><a href="https://officeofcannabis.sfgov.org/regulation/documents">Documents</a></li>
+    //-->
+    				</ul>
+    			</section>
+        </div>
+      </nav>
 		</section>
 	</div>
 
