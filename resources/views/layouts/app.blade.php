@@ -329,7 +329,7 @@
     </div>
 
 
-<div class="footer-section"><div class="loading-overlay">
+<div class="footer-section col-md-12"><div class="loading-overlay">
   <section ui-view="footer" class="ng-scope">
   <footer class="bg-tuatara padding-top--2x ng-scope">
 
