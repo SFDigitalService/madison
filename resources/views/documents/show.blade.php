@@ -20,7 +20,7 @@
     @endcan
 
     <div id="doc-header">
-        <span class="background-title visible-lg" aria-hidden="true">{{ $document->title }}</span>
+        <span class="background-title visible-lg" aria-hidden="true" style="color:#005fad;">{{ $document->title }}</span>
 
         <h1>{{ $document->title }}</h1>
         <p class="sponsors">
