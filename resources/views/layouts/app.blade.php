@@ -130,7 +130,7 @@
 </style>
 
 </head>
-<body>
+<body style="background-color:#1C3650;">
 
 	<div class="site-container">
 		<section ui-view="version" class="ng-scope"><div class="version-bar bar bg-charcoal ng-scope"><div class="row"><div class="medium-12 columns"><p class="text-right t-small c-white no-margin">This site is new. <a target="_blank" class="a-white lined" href="https://docs.google.com/forms/d/e/1FAIpQLSdwgsS1jkPH4dWq-63GDj94ugjhJw79u3xE_kF9e0MkLhMCgw/viewform"><strong>Let us know how to make it better</strong></a>.</p></div></div></div></section>
@@ -329,7 +329,7 @@
 <div class="footer-section"><div class="loading-overlay">
   <section ui-view="footer" class="ng-scope">
   <footer class="bg-tuatara padding-top--2x ng-scope">
-      
+
     <div class="row text-center padding-bottom--2x">
       <div class="medium-12 columns">
         <img alt="City &amp; County of San Francisco Logo" class="city-logo margin-bottom--2x" src="/themes/custom/cannabis/images/logo-city.png">

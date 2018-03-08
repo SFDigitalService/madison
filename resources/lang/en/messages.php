@@ -73,13 +73,13 @@ return [
     // Home Page Stuff
     'home' => [
         'home' => 'Home',
-        'welcome' => 'Add your voice',
-        'intro' => 'Legislation and regulations that impact your life are written every day. With Madison, you can work directly <em>with</em> the sponsors of these documents.',
+        'welcome' => 'Comment on regulations for the cannabis industry',
+        'intro' => 'The Office of Cannabis is working out the details on how cannabis businesses will be regulated. This is your chance to comment on regulations that will impact your cannabis business.',
         'how_it_works' => [
             'title' => 'How it Works',
-            'step1' => 'Elected officials share policy documents on Madison for public collaboration.',
-            'step2' => 'The people can read the documents, vote on the documents, and leave feedback on the documents, and their comments are sent <strong>directly to the officials</strong>.',
-            'step3' => 'Officials respond to these comments and even make changes to the documents based on the feedback.',
+            'step1' => 'Office of Cannabis posts draft regulations.',
+            'step2' => 'You have 15 days on each post to read, vote and give feedback on the regulation.',
+            'step3' => 'We, the Office of Cannabis, will read at your feedback after the 15 days are over, and may adapt the regulations based on that feedback.',
         ],
         'sponsor_cta' => [
             'title' => 'Have a document to share?',
@@ -87,7 +87,7 @@ return [
             'action_text' => 'Learn about how to become a sponsor.',
         ],
         'featured_title' => 'Featured',
-        'popular_title' => 'Popular',
+        'popular_title' => 'Regulations open for comment',
         'all_documents' => 'View all documents',
     ],
 
