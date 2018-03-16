@@ -28,7 +28,7 @@
         </p>
 
         @if (!empty($document->introtext))
-            <div class="introtext">
+            <div>
                 {!! $document->introtext_html !!}
             </div>
         @endif
@@ -54,7 +54,7 @@
                 <ul class="nav"></ul>
             </div>
 
-            <div class="col-md-8 col-sm-11">
+            <div class="col-md-9 col-sm-11">
 
                 <section id="page_content">
                     {!! $documentPages->first()->rendered() !!}

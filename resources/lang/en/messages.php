@@ -73,13 +73,18 @@ return [
     // Home Page Stuff
     'home' => [
         'home' => 'Home',
-        'welcome' => 'Comment on regulations for the cannabis industry',
-        'intro' => 'The Office of Cannabis is working out the details on how cannabis businesses will be regulated. This is your chance to comment on regulations that will impact your cannabis business.',
+        'welcome' => 'Rules &amp; Regulations for Comment',
+        'intro' => 'The San Francisco Board of Supervisors passed the Regulation of Cannabis, codified as Chapter 16 of the San Francisco Police Code, on December 5, 2017. Pursuant to Article 16, the Office of Cannabis (OOC) may issue Rules and Regulations interpreting Article 16 and providing additional guidance and clarification.',
         'how_it_works' => [
             'title' => 'How it Works',
-            'step1' => 'Office of Cannabis posts draft regulations.',
-            'step2' => 'You have 15 days on each post to read, vote and give feedback on the regulation.',
-            'step3' => 'We, the Office of Cannabis, will read at your feedback after the 15 days are over, and may adapt the regulations based on that feedback.',
+            'step1' => 'Any person may present written comments relevant to the proposed Rules.',
+            'step2' => 'Comments can be submitted electronically on this website, via an email to <a href="mailto:officeofcannabis@sfgov.org">officeofcannabis@sfgov.org</a>, or in writing to: Office of Cannabis, City Hall, 1 Dr. Carlton B. Goodlett Pl. Room 018',
+            'step3' => 'Written comments become part of the public record.',
+            'step4' => 'To guarantee consideration, all comments should be submitted by 5 p.m. no more than 14 days after the proposed Rules are posted.',
+            'step5' => 'The scope of comments on each subject is intended to be broad. The public is encouraged to address not only the specific draft rules, but the general subject matter that each rule addresses.',
+            'step6' => 'The public is further encouraged to suggest alternative rules concerning these subjects. ',
+            'step7' => 'There is no guarantee that the final rules adopted by the OOC pertaining to these subjects will track the draft rules posted by OOC.  The purpose of receiving comments is to fully inform OOC so that the final rules adopted will be reasonable and well founded.'
+
         ],
         'sponsor_cta' => [
             'title' => 'Have a document to share?',
@@ -89,6 +94,7 @@ return [
         'featured_title' => 'Featured',
         'popular_title' => 'Regulations open for comment',
         'all_documents' => 'View all regulations',
+        'inquiry'=>'Inquiries concerning the proposed Rules & Regulations, or the public comment process may be directed to <a href="mailto:officeofcannabis@sfgov.org">officeofcannabis@sfgov.org</a> or submitted in person:<br>Office of Cannabis<br>City Hall<br>1 Dr. Carlton B. Goodlett Pl. Room 018<br>San Francisco CA, 94102'
     ],
 
     'search' => [

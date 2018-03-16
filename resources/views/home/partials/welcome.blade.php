@@ -2,10 +2,13 @@
     <div class="col-md-12">
         <h2 id="how-it-works">@lang('messages.home.how_it_works.title')</h2>
         <ol class="lead">
-            <li>{!! trans('messages.home.how_it_works.step1') !!}</li>
-            <li>{!! trans('messages.home.how_it_works.step2') !!}</li>
-            <li>{!! trans('messages.home.how_it_works.step3') !!}</li>
+            @foreach(trans('messages.home.how_it_works') as $k=>$v)
+                @if(strpos($k, 'step') === 0)
+                <li>{!! trans($v) !!}</li>
+                @endif
+            @endforeach
         </ol>
+        <p class="lead">@lang('messages.home.inquiry')</p>
     </div>
 
 <!--
