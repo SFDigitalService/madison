@@ -81,7 +81,7 @@
 @endsection
 
 @push('scripts')
-    <script src="{{ elixir('js/document-edit.js') }}"></script>
+    <script src="{{ URL::asset(elixir('js/document-edit.js')) }}"></script>
     <script>
         window.loadTranslations([
             'messages.preview'

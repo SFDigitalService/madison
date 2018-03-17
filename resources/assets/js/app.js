@@ -19,7 +19,7 @@ $(function () {
 });
 
 window.loadTranslations = function (msgIds) {
-  return $.get('/translations', { 'msg_id[]': msgIds }, null, "json")
+  return $.get('/regulation/translations', { 'msg_id[]': msgIds }, null, "json")
     .done(function (data) {
       window.trans = data;
     });
