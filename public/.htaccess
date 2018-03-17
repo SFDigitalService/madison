@@ -11,20 +11,15 @@
 
     RewriteCond %{HTTPS} on
     RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-    RewriteRule ^(.*)$ https://%{HTTP_HOST} [R=301,L,NE]
+    RewriteRule ^(.*)$ https://${HTTP_HOST} [R=301,L,NE]
 
     # Redirect Trailing Slashes...
     RewriteRule ^(.*)/$ /$1 [L,R=301]
-
-    Redirect 301 /core https://officeofcannabis.sfgov.org/core
-    Redirect 301 /themes https://officeofcannabis.sfgov.org/themes
-    RewriteRule ^regulation/(.*)$ /$1 [QSA,L,R=307]
 
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
-
 
     # Enable Gzip Compression
     <ifmodule mod_deflate.c>
